@@ -36,4 +36,36 @@ print("Hello World",5,6.89)
 #Day 5
 #Comments and escape sequence
 
+""" Hassan is
+a 
+good 
+boy
+"""
+# escape sequence charachteris backslash /
+print("Hassan \n King")
+print("Hassan",12,'a',sep=",")
+
+#Day 6
+
+#Variable and Data types
+# In pyhton we don't need to define the data
+# In Python everything var is Object
+a=1
+b= True
+c ="Shani"
+d=None
+
+#list and Tuple
+
+list1 = [8, 2.3, [-4, 5], ["apple", "banana"]] #ordered , Mutable
+print(list1)
+
+tuple1 = (("parrot", "sparrow"), ("Lion", "Tiger")) #ordered , immutable
+print(tuple1)
+#Map
+dict1 = {"name":"Sakshi", "age":20, "canVote":True} #Dictionary is unordred key value pair
+print(dict1)
+
+
+
 
