@@ -67,5 +67,16 @@ dict1 = {"name":"Sakshi", "age":20, "canVote":True} #Dictionary is unordred key 
 print(dict1)
 
 
+#Day 9 Typecasting
 
+#Explicit
+a="10"
+b="9"
+sum=int(a)+int(b)
+print(sum)
+
+#Implicit
+c=9
+d=10.8
+print(c+d)
 

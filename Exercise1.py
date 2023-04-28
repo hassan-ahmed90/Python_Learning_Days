@@ -1,3 +1,7 @@
+
+#Day 7 and 8
+#Exercise
+
 #calculator
 
 a=10
