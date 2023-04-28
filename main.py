@@ -80,3 +80,10 @@ c=9
 d=10.8
 print(c+d)
 
+#Day 10
+a=input("Enter your Name : ")
+print("Your name is ", a)
+b=input("Enter the first no ",)
+c=input("now 2nd no ")
+print("Here is a sum of two no's ",int(b)+int(c))
+
