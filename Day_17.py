@@ -31,15 +31,38 @@ colors=["White","Green","Red",]
 
 
 
-for i in range(12):
-  if(i == 10):
-    continue
-  print("5 X", i, "=", 5 * i)
+# for i in range(12):
+#   if(i == 10):
+#     continue
+#   print("5 X", i, "=", 5 * i)
+#
+#   for j in [2, 3, 4, 6, 8, 0]:
+#       if (j % 2 != 0):
+#           continue
+#       print(j)
 
-  for j in [2, 3, 4, 6, 8, 0]:
-      if (j % 2 != 0):
-          continue
-      print(j)
+
+#Day 20
+
+
+
+def meanG(a,b):
+    c=(a*b)/(a+b)
+    print(c)
+
+
+
+def isGreater(c,d):
+    if(c>d):
+        print("First no is greater")
+    else:
+        print("Second no is greader")
+f=100
+meanG(4,2)
+isGreater(4, 10)
+
+
+
 
 
 
