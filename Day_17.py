@@ -44,24 +44,40 @@ colors=["White","Green","Red",]
 
 #Day 20
 
+# def meanG(a,b):
+#     c=(a*b)/(a+b)
+#     print(c)
+# def isGreater(c,d):
+#     if(c>d):
+#         print("First no is greater")
+#     else:
+#         print("Second no is greader")
+# f=100
+# meanG(4,2)
+# isGreater(4, 10)
+
+#Day 21
+#Arguments in Function
+
+def average(a=9,b=8):
+    print(a+b/2)
+
+average(3,4)
 
 
-def meanG(a,b):
-    c=(a*b)/(a+b)
-    print(c)
+def avg(*number):
+    sum=0
+    for i in number:
+        sum=sum+i
+    print(sum/len(number))
+avg(2,3,4,56,6)
+
+def name(**name):
+  # print(type(name))
+  print("Hello,", name["fname"], name["mname"], name["lname"])
 
 
-
-def isGreater(c,d):
-    if(c>d):
-        print("First no is greater")
-    else:
-        print("Second no is greader")
-f=100
-meanG(4,2)
-isGreater(4, 10)
-
-
+name(mname="Buchanan", lname="Barnes", fname="James")
 
 
 
