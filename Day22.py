@@ -23,3 +23,5 @@ else:
     m=[100,200,200]
     l.extend(m)
 
+#Day 24
+#Tuple
