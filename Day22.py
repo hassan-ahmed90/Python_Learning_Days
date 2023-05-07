@@ -25,3 +25,6 @@ else:
 
 #Day 24
 #Tuple
+
+#Day 25
+#operation on Tuple
