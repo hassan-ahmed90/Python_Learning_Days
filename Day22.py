@@ -19,12 +19,17 @@ else:
     l.reverse()
     l.index(8)
     l.count(10)
-    l.index(2,100)
+
     m=[100,200,200]
     l.extend(m)
 
 #Day 24
 #Tuple
+
+tuple=(1,2,3,45)
+#The only difference between tuple and list is tuple we can not change and list we can change
+if 45 in tuple:
+    print("Yes it is present")
 
 #Day 25
 #operation on Tuple
