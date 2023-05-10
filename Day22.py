@@ -24,7 +24,7 @@ else:
     l.extend(m)
 
 #Day 24
-#Tuple
+
 
 tuple=(1,2,3,45)
 #The only difference between tuple and list is tuple we can not change and list we can change
